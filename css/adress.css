@@ -62,10 +62,11 @@ body{
 /* UC3*/
 .form-content {
     min-height: calc(100% - 80px);
-    background-color: none;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     }
 
 .form {
@@ -154,6 +155,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     padding-top: 19px;
+    padding-top: 10px;
 }
 
 .column-content {
@@ -184,6 +186,7 @@ error-output {
 }
 .buttons-contact {
     margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     justify-content: flex-end;
 }
